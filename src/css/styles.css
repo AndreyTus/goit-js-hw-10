@@ -17,4 +17,27 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#search-box:hover,
+#search-box:focus {
+  border-color: greenyellow;
+}
+
+.country-list {
+  list-style: none;
+}
+
+b {
+  font-size: large;
+}
+
+p {
+  font-size: large;
+}
+
+img {
+  margin-right: 15px;
 }
